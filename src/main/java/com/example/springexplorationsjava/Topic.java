@@ -11,6 +11,11 @@ public class Topic {
     private String name;
     private String description;
 
+    // must contain default constructor for spring boot
+    public Topic() {
+//        this(id, name, description);
+    }
+
     public Topic(String id, String name, String description) {
         this.id = id;
         this.name = name;
