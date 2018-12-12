@@ -27,6 +27,7 @@ public class TopicService {
         else {
             List<Topic> topics = new ArrayList<>();
             topicRepository.findAll().forEach(topics::add);
+
             return topics;
         }
     }
