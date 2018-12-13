@@ -2,7 +2,7 @@ package com.example.springexplorationsjava;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface TopicRepository extends CrudRepository<Topic, String> {  //<Entity, id type>
+public interface LineRepository extends CrudRepository<LineEntity, Long> {  //<Entity, id type>
 
 
 }
